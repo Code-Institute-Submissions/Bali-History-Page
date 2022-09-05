@@ -2,14 +2,6 @@
 Historical page
 <!DOCTYPE html>
 <head>
-    <style>
-        .img-Baths {
-            width: 300px;
-        }
-        .img-Rice {
-            width: 300px;
-        }
-    </style>
 </head>
 <body bgcolor="#99FFCC">
     <br>
