@@ -12,7 +12,6 @@ Historical page
     </style>
 </head>
 <body bgcolor="#99FFCC">
-    <h1>History of Bali</h1>
     <nav>
         <a href="#the holy spring water temple">The Holy Spring Water Temple</a>
         <a href="#the underground spring">The Underground Spring</a>
