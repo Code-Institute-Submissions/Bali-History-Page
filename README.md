@@ -1,4 +1,4 @@
-# History-of-Bali
+# History of Bali
 Historical page
 <!DOCTYPE html>
 <head>
