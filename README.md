@@ -1,4 +1,4 @@
-# The-Holy-Spring-Temple
+# History-of-Bali
 Historical page
 <!DOCTYPE html>
 <head>
