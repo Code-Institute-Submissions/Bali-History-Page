@@ -7,7 +7,7 @@
         }
 
         .img-Rice {
-            width: 300px;
+            width: 400px;
         }
 
         .container {
@@ -40,6 +40,8 @@
         nav li {
             display: inline-block;
             margin-left: 70px;
+            padding-top: 23px;
+            position: relative;
         }
         nav a {
             color: #444;
@@ -49,6 +51,18 @@
         }
         nav a:hover {
             color: #000;
+        }
+        nav a::before {
+            content: "";
+            display: block;
+            height: 5px;
+            width: 0%;
+            background-color: #444;
+            position: absolute;
+            top: 0;
+        }
+        nav a:hover::before {
+            width: 100%;
         }
     </style>
     <title>History of Bali</title>
