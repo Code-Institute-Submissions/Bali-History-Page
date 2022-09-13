@@ -1,208 +1,8 @@
 <!DOCTYPE html>
 <head lang="en">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <style>
-        .img-Baths {
-            width: 300px;
-        }
-
-        .img-Rice {
-            width: 300px;
-            float: right;
-        }
-        .img-forest {
-            width: 250px;
-            margin-left: 350px;
-        }
-        .img-selfie {
-            width: 250px;
-            float:left;
-        }
-
-        .img-criminal {
-            width: 250px;
-            float: right;
-        }
-        .vid-theif {
-            width: 300px;
-            height: 300px;
-        }
-
-        .png-Bali {
-            float: left;
-            padding: 10px 0;
-            width: 100px;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-
-
-        body {
-            margin: 0;
-            font-family: 'PT Sans', sans-serif;
-            font-weight: 300;
-        }
-
-        header {
-            background: #99FFCC;
-        }
-
-            header::after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-
-        nav {
-            float: right;
-        }
-
-            nav ul {
-                margin: 0;
-                padding: 0;
-                list-style: none;
-            }
-
-            nav li {
-                display: inline-block;
-                margin-left: 70px;
-                padding-top: 23px;
-                position: relative;
-            }
-
-            nav a {
-                color: #444;
-                text-decoration: none;
-                text-transform: uppercase;
-                font-size: 14px;
-            }
-
-                nav a:hover {
-                    color: #000;
-                }
-
-                nav a::before {
-                    content: "";
-                    display: block;
-                    height: 5px;
-                    width: 0%;
-                    background-color: #444;
-                    position: absolute;
-                    top: 0;
-                    transition: all ease-in-out 250ms;
-                }
-
-                nav a:hover::before {
-                    width: 100%;
-                }
-                h1 {
-                    text-align: center;
-                }
-                h2 {
-                    margin-left: 70px;
-                }
-                h3 {
-                    margin-left: 20px;
-                }
-                h4{
-                    color: #000;
-                }
-                p {
-                    margin-left: 20px;
-                }
-                .contact-box {
-                    background: #fff;
-                    display: flex;
-                }
-                .contact-left {
-                    flex-basis: 60%;
-                    padding: 40px 60px;
-                }
-                .contact-right {
-                flex-basis: 40%;
-                padding: 40px;
-                background: #99FFCC;
-                color: #fff;
-                }
-                .input-row {
-                    display: flex;
-                    justify-content: space-between;
-                    margin-bottom:20px;
-                }
-                .input-row .input-group {
-                    flex-basis: 45%;
-                }
-                input {
-                    width:100%;
-                    border: none;
-                    border-bottom: 1px solid #ccc;
-                    outline:none;
-                    padding-bottom: 5px;
-                }
-                textarea{
-                    width:100%;
-                    border: 1px solid #ccc;
-                    outline: none;
-                    padding: 10px;
-                    box-sizing: border-box;
-                }
-                lebel{
-                    margin-bottom: 6px;
-                    display: block;
-                    color: #1c00b5;
-                }
-                button {
-                background: #99FFCC;
-                width: 100px;
-                border:none;
-                outline: none;
-                color: #000;
-                height: 35px;
-                border-radius: 30px;
-                margin-top: 20px;
-                box-shadow: 0px 5px 15px 0px;
-                }
-                .contact-left h4{
-                    color:#0094ff;
-                    font-weight: 600;
-                    margin-bottom: 30px;
-                }
-                .contact-right h4 {
-                 font-weight: 600;
-                 margin-bottom: 30px;
-                }
-                td{
-                    color:#000;
-                }
-                tr td:first-child{
-                    padding-right: 20px;
-                }
-                tr td{
-                    padding-top: 20px;
-                }
-                .TempleMap{
-                    width:100%;
-                    height:100vh;
-                    display:flex;
-                    flex-direction: column;
-                }
-                iframe{
-                    margin-left: 20px;
-                    width: 80%;
-                    height: 500px;
-                }
-                .MForest{
-                    width:100%;
-                    height:100vh;
-                    display:flex;
-                    flex-direction: column;
-                }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>History of Bali</title>
-    <meta charset="utf-8" />
 </head>
 <body>
     <header>
@@ -223,7 +23,7 @@
         </div>
     </header>
     <div id="home">
-    <h1>History of Bali</h1>
+        <h1>History of Bali</h1>
     </div>
     <section>
         <div id="temple">
@@ -247,7 +47,7 @@
                 <img class="img-Baths" src="img/Baths.jpeg" alt="Baths">
                 <img class="img-Rice" src="img/Rice.jpeg" alt="Rice Fields">
             </figure>
-            
+
         </div>
     </section>
 
@@ -287,9 +87,9 @@
                 <img class="img-criminal" src="img/criminal.jpeg" alt="Criminal">
             </figure>
             <figure>
-            <center>
-            <video class="vid-theif" src="vid/thief.mp4" controls></video>
-            </center>
+                <center>
+                    <video class="vid-theif" src="vid/thief.mp4" controls></video>
+                </center>
             </figure>
             <h3>Monkey Temple</h3>
             <p>
@@ -303,75 +103,76 @@
                 <br />and have respect for them when you are in their home.
             </p>
         </div>
-        </section>
+    </section>
     <footer>
-    <div id="contact">
-        <h2>Contact Us</h2>
-        <p>We would like to hear your feedback and respond to any queries you may have.</p>
-        <div class="contact-box">
-            <div class="contact-left">
-                <h4>Send your request</h4>
-                <form>
-                    <div class="input-row">
-                        <div class="input-group">
-                            <label>Name</label>
-                            <input type="text" placeholder="Your Name">
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <p>We would like to hear your feedback and respond to any queries you may have.</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h4>Send your request</h4>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" placeholder="+44 800 35 7231">
+                            </div>
                         </div>
-                        <div class="input-group">
-                            <label>Phone</label>
-                            <input type="text" placeholder="+44 800 35 7231">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="John.Doe@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Please enter queries here">
+                            </div>
                         </div>
-                    </div>
-                    <div class="input-row">
-                        <div class="input-group">
-                            <label>Email</label>
-                            <input type="email" placeholder="John.Doe@gmail.com">
-                        </div>
-                        <div class="input-group">
-                            <label>Subject</label>
-                            <input type="text" placeholder="Please enter queries here">
-                        </div>
-                    </div>
-                    <label>Message</label>
-                    <textarea rows="5" placeholder="Your Message"></textarea>
-                    <button type="submit">SEND</button>
-                </form>
-            </div>
-            <div class="contact-right">
-                <h4>Reach Us</h4>
-                <table>
-                    <tr>
-                        <td>Email</td>
-                        <td>contactus@BaliHistory.com</td>
-                    </tr>
-                    <tr>
-                        <td>Phone</td>
-                        <td>+44 7785 947 825</td>
-                    </tr>
-                    <tr>
-                        <td>Address</td>
-                        <td>22 Vicar Lane,Sandsend, YO21 7LR <br>
-                        United Kingdom
-                        </td>
-                    </tr>
-                </table>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h4>Reach Us</h4>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>contactus@BaliHistory.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+44 7785 947 825</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>
+                                22 Vicar Lane,Sandsend, YO21 7LR <br>
+                                United Kingdom
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
         <div id="locations">
-    <div class="TempleMap">
-        <h2>The Holy Spring Temple Location</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24563.964525450392!2d115.29344254700557!3d-8.424349531756638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd218f4e06131b5%3A0x53a25a017714ecc1!2sPura%20Tirta%20Empul!5e0!3m2!1sen!2suk!4v1662449830343!5m2!1sen!2suk" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
-    <div class="MForest">
-        <h2>Monkey Forest Location</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.795527579089!2d115.2586697147309!3d-8.519223293875504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23d230963d115%3A0x5a2f8658c8e27d88!2sMonkey%20forest%20entrance!5e0!3m2!1sen!2suk!4v1662450999377!5m2!1sen!2suk" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
-    </div>
-        </footer>
+            <div class="TempleMap">
+                <h2>The Holy Spring Temple Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24563.964525450392!2d115.29344254700557!3d-8.424349531756638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd218f4e06131b5%3A0x53a25a017714ecc1!2sPura%20Tirta%20Empul!5e0!3m2!1sen!2suk!4v1662449830343!5m2!1sen!2suk"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="MForest">
+                <h2>Monkey Forest Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.795527579089!2d115.2586697147309!3d-8.519223293875504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23d230963d115%3A0x5a2f8658c8e27d88!2sMonkey%20forest%20entrance!5e0!3m2!1sen!2suk!4v1662450999377!5m2!1sen!2suk"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
