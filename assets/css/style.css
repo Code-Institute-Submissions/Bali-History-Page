@@ -46,7 +46,11 @@ body {
 }
 
 header {
-    background: #99FFCC;
+    background-color: #FCF6F5FF;
+}
+
+body {
+    background-color: #8AAAE5;
 }
 
 
