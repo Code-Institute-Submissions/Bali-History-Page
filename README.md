@@ -34,7 +34,7 @@
 
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors or no warnings to show.
 <details><summary>All site</summary>
-<img src="docs/validation/validation-html-site.jpg">
+<img src="docs/Validation/validation-html-site.jpg">
 </details>
 
 <details><summary>404 error page</summary>
