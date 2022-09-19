@@ -3,7 +3,7 @@
 
 **Developer: Matthew Carballeira**
 
-![Mockup image]()
+![Mockup image](docs/ami-responsivedesign-hb.JPG)
 
 [Live website](https://tillymc5.github.io/Bali-History-Page/)
 
@@ -27,3 +27,16 @@
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
+
+  ## Validation
+
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors or no warnings to show.
+<details><summary>All site</summary>
+<img src="docs/validation/validation-html-site.jpg">
+</details>
+
+<details><summary>404 error page</summary>
+<img src="docs/validation/validation-html-404page.JPG">
+</details>
