@@ -1,4 +1,4 @@
-# Bali History Page <img src="assets/png/Bali.PNG" style="width: 40px;height:40px;">
+# Bali History Page <img src="assets/png/Bali.PNG" style="width: 100px;height:100px;">
 
 
 **Developer: Matthew Carballeira**
