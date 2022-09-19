@@ -37,6 +37,11 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <img src="docs/Validation/validation-html-site.jpg">
 </details>
 
-<details><summary>404 error page</summary>
-<img src="docs/validation/validation-html-404page.JPG">
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+When validating all website, it passes with no errors found.
+
+<details><summary>Style.css</summary>
+<img src="docs/validation/validation-css-style.jpg">
 </details>
