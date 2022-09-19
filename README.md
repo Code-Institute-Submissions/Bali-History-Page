@@ -43,5 +43,5 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 When validating all website, it passes with no errors found.
 
 <details><summary>Style.css</summary>
-<img src="docs/validation/validation-css-style.jpg">
+<img src="docs/Validation/validation-css-style.jpg">
 </details>
