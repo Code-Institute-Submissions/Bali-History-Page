@@ -23,10 +23,7 @@
     - [Performing tests on various devices](#performing-tests-on-various-devices)
     - [Browser compatability](#browser-compatability)
     - [Testing user stories](#testing-user-stories)
-  - [Bugs](#bugs)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
-  - [Acknowledgements](#acknowledgements)
+
 
   ## Validation
 
@@ -44,4 +41,19 @@ When validating all website, it passes with no errors found.
 
 <details><summary>Style.css</summary>
 <img src="docs/Validation/validation-css-style.jpg">
+</details>
+
+## Testing
+
+### Accessibility
+
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. The site currently contains 9 errors.
+
+<details><summary>See evaluation summary</summary><img src="docs/Validation/validation-accessibility-all-site.jpg">
+</details>
+
+### Performance
+
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+<details><summary>See evaluation summary</summary><img src="docs/Validation/validation-lighthouse-performance.JPG">
 </details>
