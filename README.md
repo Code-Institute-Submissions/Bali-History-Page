@@ -9,19 +9,17 @@
 
 ## Table of Content
 
-    - [User Stories](#user-stories)
-    - [Colour](#colour)
-    - [Fonts](#fonts)
-    - [Structure](#structure)
-    - [Wireframes](#wireframes)
+  - [User Stories](#user-stories)
+  - [Colour](#colour)
+  - [Fonts](#fonts)
+  - [Structure](#structure)
+  - [Wireframes](#wireframes)
   - [Validation](#validation)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
   - [Testing](#testing)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
-    - [Performing tests on various devices](#performing-tests-on-various-devices)
-    - [Browser compatability](#browser-compatability)
     - [Testing user stories](#testing-user-stories)
 
 
