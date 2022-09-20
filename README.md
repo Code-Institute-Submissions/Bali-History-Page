@@ -20,8 +20,15 @@
 - [Testing](#testing)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
-    - [Testing user stories](#testing-user-stories)
 
+
+## User Experience
+
+### Target Audience
+
+- People who want to learn about the history of Bali
+- People who are looking to visit Bali
+- People who enjoy history and animals. 
 
   ## Validation
 
