@@ -9,9 +9,9 @@
 
 ## Table of Content
 
-  - [User Stories](#user-stories)
-  - [Colour](#colour)
-  - [Fonts](#fonts)
+- [User Experience](#user-experience)
+    - [Target Audience](#target-audience)
+    - [User Stories](#user-stories)
   - [Structure](#structure)
   - [Wireframes](#wireframes)
   - [Validation](#validation)
