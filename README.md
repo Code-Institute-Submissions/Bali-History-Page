@@ -30,6 +30,26 @@
 - People who are looking to visit Bali
 - People who enjoy history and animals. 
 
+### User Stories
+
+#### First-time users
+
+1. As a first time user, I want to learn about the temple myth of Bali
+2. As a first time user, I want to Learn about the monkey forest
+3. As a first time user, I want to know the location of the holy spring temple
+   
+#### Returning visitor
+
+1. As a returning user, I want to learn about Bali's other locations and landmarks like the active volcano
+2. As a returning user, I want to know more about the various villages scattered around the island that have their own unique speciality's like the jewlery village, the masionary village, the wood carving village and the painting village.
+3. As a returning user, I want to learn more about Bali's ecosystem. For example the history about the animals, ect. 
+
+#### Site Owner
+
+1.	As the site owner, I want user to want to visit the island paradise of Bali
+2.	As the site owner, I want user to be able to message us and ask questions about the island. 
+3.	As the site owner, I want user to be safe on their travels.
+4.	As the site owner, I want user to enjoy reading the myth of the Temple and to want to know more. 
   ## Validation
 
 ### HTML Validation
